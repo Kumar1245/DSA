@@ -38,8 +38,8 @@ console.log(frequencyReduce([1, 2, 2, 3, 4, 4, 5, 5, 5]))
 function frequncyForEach(arr){
     let freq={}
     arr.forEach(num=>{
-        freq[num]=(freq[num]||0)+1
+        freq[num]=(freq[num]||0)+1;
     })
     return freq
 }
-console.log(frequncyForEach[2,4,5,6,7,9,2,5,3,6,3,7,9])
+console.log(frequncyForEach[1, 2, 2, 3, 4, 4, 5, 5, 5])
