@@ -1,4 +1,5 @@
 // valid parenthesis strings
+// Data Structure - Stack Problem 
 function validParenthesis(s) {
     let stack = [];
     let map = {
@@ -26,4 +27,3 @@ console.log(validParenthesis("{[]}")); // true
 console.log(validParenthesis("((()))")); // true
 console.log(validParenthesis("((())")); // false
 console.log(validParenthesis("())")); // false
-    
